@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Color Game Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Demo Color Trading Game</h2>
+
+<p>Wallet: <span id="wallet">1000</span></p>
+<p>Time Left: <span id="timer">30</span></p>
+
+<button onclick="selectOption('Red')">Red</button>
+<button onclick="selectOption('Green')">Green</button>
+<button onclick="selectOption('Big')">Big</button>
+<button onclick="selectOption('Small')">Small</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
